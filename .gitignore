@@ -1,0 +1,9 @@
+#ignore all the modelsim.ini files present in /test/name_test/build directories
+.ini
+*.log
+*.svf
+
+#ignore all the build-folder, since contains very large files for complex algorithm
+synth/work
+synth/alib-52
+synth/.synopsys_dc.setup
